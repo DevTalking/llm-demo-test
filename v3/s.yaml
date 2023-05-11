@@ -88,7 +88,7 @@ services:
           OPENAI_API_KEY: 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
           SERPAPI_API_KEY: 17ebf2e02f3f554e07660077c591dac14e90bd3cdbca7fa10494b13f6508c186
         customContainerConfig:
-          image: kev1n/llm-demo
+          image: registry.cn-beijing.aliyuncs.com/jiyuan_image/streamlit:0.0.1
           #command: '["python","-m","streamlit","run","/home/code/index-streamlit.py","--server.port","9001","--server.address","127.0.0.1"]' 
           command: '["python","/home/code/index-flask.py"]' 
       triggers:
