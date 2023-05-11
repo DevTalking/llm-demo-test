@@ -82,7 +82,7 @@ services:
         timeout: 30
         memorySize: 1536
         runtime: custom-container
-        codeUri: ./code
+        codeUri: ./v3/code
         instanceConcurrency: 4
         environmentVariables:
           OPENAI_API_KEY: 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
